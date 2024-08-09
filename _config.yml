@@ -84,19 +84,21 @@ content:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: > 
-          IT서비스 자동화 솔루션(ITOMS)
+        # quote: > 
         description: | # this will include new lines to allow paragraphs
-          Bakcend 개발 및 코드 개선을 해나가고 있습니다.<br>
+          ITOMS Bakcend 개발 및 코드 개선을 해나가고 있습니다.<br>
+            ITOMS: IT서비스 자동화 솔루션<br>
             - 부하 테스트로 Backend 코드 문제점 개선
             - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
             - 수집된 Health Check 정보를 이용한 데이터 예측
             - 소프트웨어 품질인증(GS인증) 1등급 획득
             - 국가정보자원관리원 설치 및 운영 지원<br><br>
 
-        quote: > 
-          FLAS Streaming Backend, Transcoder Backend 개발
-            - 
+          FLAS Streaming Backend, Transcoder Backend 개발<br>
+            FLAS: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오 파일의 Streaming을 위한 Transcoding 플랫폼 <br><br>
+            - ERD 설계
+            - FFMPEG을 이용한 비디오, 오디오 Transcoding, Cataloging, Scene change, Thumbnail 개발
+            - 몽골 국가기록원 설치 및 교육<br><br>
 
 
 
