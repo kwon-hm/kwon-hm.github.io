@@ -30,8 +30,8 @@ Kernel configured for up to 12 processors.
 Processor type: arm64e (ARM64E)
 Processors active: 0 1 2 3 4 5 6 7 8 9 10 11
 Primary memory available: 32.00 gigabytes
-Default processor set: 791 tasks, 5193 threads, 12 processors
-Load average: 12.79, Mach factor: 2.58
+Default processor set: 785 tasks, 5066 threads, 12 processors
+Load average: 13.37, Mach factor: 4.91
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
