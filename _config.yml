@@ -120,10 +120,10 @@ content:
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
 
-  - title: 역량
+  - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: 개발 파트
         link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
         quote: >
