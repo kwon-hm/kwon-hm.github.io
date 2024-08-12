@@ -119,16 +119,24 @@ content:
           - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
-
-  - title: Projects
-    layout: list
+          
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: 개발 파트
         link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           2020.10 ~ 현재
-        description: |
+        description: | # this will include new lines to allow paragraphs
           - 인포플라 팀장 (2024.04 ~ 현재)
           - ITOMS Backend 클라우드 서비스 버전 개발 및 운영 (2020.10 ~ 현재)
           - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
