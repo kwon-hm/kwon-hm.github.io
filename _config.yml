@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   현재 팀장의 위치에서 주도적인 업무 환경 만들기와 팀원의 성장을 고려하면서 개발을 진행하고 있습니다.<br>
 
 content:
-  - title: Experience # Title for the section
+  - title: Experience & Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -157,8 +157,7 @@ content:
           - NodeJS, Python, Java
           - Graphql, NestJS, Spring Boot
           - easygraphql-load-tester, Jest
-          - TypeORM
-          - Github, Gitlab
+          - Github, Gitlab, Sourcetree
           - Visual Studio Code, Eclipse
 
       - layout: left
