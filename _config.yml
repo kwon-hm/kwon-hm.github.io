@@ -124,14 +124,16 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: 개발 파트
+        link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          2020.10 ~ 현재
+        description: |
+          - 인포플라 팀장 (2024.04 ~ 현재)
+          - ITOMS Backend 클라우드 서비스 버전 개발 및 운영 (2020.10 ~ 현재)
+          - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
+          - Central Ave Backend 및 미국 LA 설치 (2023.03 ~ 2024.02)
+          - 인터패스 IPERP Backend 개발 (2021.02 ~ 2022.07)
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
