@@ -121,7 +121,7 @@ content:
           - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
-  content:
+
     - title: 역량
       layout: list
       content:
@@ -150,7 +150,7 @@ content:
           description: |
             - [AWS] ITOMS 클라우드 서비스 운영 및 배포
             - [On-Premise] Github Actions를 이용한 자동 배포
-  content:
+        
     - title: 기술 스택
       layout: list
       content:
