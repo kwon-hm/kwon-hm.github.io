@@ -115,9 +115,9 @@ content:
         sub_title: 웹 개발자
         caption: 2018.05 ~ 2018.12
         description: |
-          - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
+          - Java, MyBatis, MariaDB 환경에서 코인 거래소 관리자 페이지 개발
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
-          - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
+          - NodeJS, MariaDB 환경에서 EOS 코인 관련(지갑생성, 테스트넷, 입금처리) 개발
 
   - title: 역량
     layout: list
@@ -138,9 +138,9 @@ content:
         title: 대용량 데이터 처리 및 성능 개선
         description: |
           - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
-          - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
+          - ITOMS searchPaging 공통 코드 부분의 Offset 값 이상 확인 후 기본값을 낮게 수정(258ms -> 8ms)
           - ITOMS DB Connection pool Timeout 버그 수정
-          - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
+          - ITOMS Agent의 일반 Electron 앱을 Wix toolset으로 build 후 Windows용 설치 프로그램 배포
 
       - layout: top-middle
         title: 인프라 운영 관리
@@ -159,20 +159,20 @@ content:
           - easygraphql-load-tester, Jest
           - TypeORM
           - Github, Gitlab
-          - Visual Studio Code
+          - Visual Studio Code, Eclipse
 
       - layout: left
         title: DevOps
         description: |
           - MariaDB, MongoDB, Redis, MsSQL
           - Nginx, Tomcat
-          - AWS EC2, Cloud Watch, RDS (Aurora), S3, lambda
+          - AWS EC2, Cloud Watch, RDS (Aurora), S3, Lambda
           - Linux
 
   - title: A Little More About Me
     layout: text
     content: |
-      - [인포플라 - 보도자료](https://www.donga.com/news/It/article/all/20230327/118539760/1)
+      - [인포플라 - 백엔드 개발자 이야기](https://www.donga.com/news/It/article/all/20230327/118539760/1)
 
 # Footer
 footer_show_references: true
