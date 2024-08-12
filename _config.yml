@@ -1,30 +1,48 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Hyewon Jeon
-title: Junior Back-end Web Developer
-email: hwjun317@naver.com
-website: www.github.com/codingwanee
+name: 권혁민
+title: 서버 백엔드 엔지니어
+email: qmh0363@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: https://kwon-hm.github.io
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  codingwanee
-linkedin_username: Hyewon Jeon
+# twitter_username: jekyllrb
+github_username:  kwon-hm
+# stackoverflow_username: "12510445"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -34,12 +52,14 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/hyewon.jpg
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Hyewon Jeon and I'm a junior back-end web developer. As well as developing web, I am also good at communicating with people. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>Java</mark> and <mark>Smile</mark>
+  NodeJS/Graphql 기반의 7년차 서버 백엔드 개발자입니다. 회사의 성장을 위해 SI 프로젝트와 솔루션 개발을 함께 진행 해왔습니다.<br/>
+  사용자의 요구 사항과 다양한 이슈들을 통해서 ERD 설계부터 효과적인 운영환경을 만들기 위한 개발을 진행하고 고민해 왔습니다.
+  그렇게 프로젝트마다 요구사항정의서, Api 문서, 버그 리포팅 문서를 남기고 문서를 통해 학습하고 같은 실수를 반복하지 않도록 하였습니다.<br/>
+  솔루션 운영 시에서 부하 테스트를 활용하여 코드의 문제점을 개선하고 반복되는 업무를 줄이고자 Github Actions를 통한 자동 배포를 구현했습니다.<br/>
+  현재 팀장의 위치에서 주도적인 업무 환경 만들기와 팀원의 성장을 고려하면서 개발을 진행하고 있습니다.<br/>
 
 content:
   - title: Experience # Title for the section
