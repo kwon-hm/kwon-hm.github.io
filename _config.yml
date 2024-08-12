@@ -119,7 +119,19 @@ content:
           - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
-          
+
+- title: Projects
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
