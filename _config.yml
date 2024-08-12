@@ -123,7 +123,7 @@ content:
   - title: 역량
     layout: list
     content:
-      - layout: top-middle
+      # - layout: top-middle
         title: 개발 파트
         link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
         quote: >
