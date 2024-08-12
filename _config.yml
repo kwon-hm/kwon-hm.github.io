@@ -120,7 +120,7 @@ content:
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
 
-  - title: 역량
+  # - title: 역량
     layout: list
     content:
       # - layout: top-middle
