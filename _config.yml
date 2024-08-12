@@ -56,7 +56,7 @@ github_username:  kwon-hm
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   NodeJS/Graphql 기반의 7년차 서버 백엔드 개발자입니다. 회사의 성장을 위해 SI 프로젝트와 솔루션 개발을 함께 진행 해왔습니다.<br/>
-  사용자의 요구 사항과 다양한 이슈들을 통해서 ERD 설계부터 효과적인 운영환경을 만들기 위한 개발을 진행하고 고민해 왔습니다.
+  사용자의 요구 사항과 다양한 이슈들을 통해서 ERD 설계부터 효과적인 운영환경을 만들기 위한 개발을 하고 고민해 왔습니다.
   그렇게 프로젝트마다 요구사항정의서, Api 문서, 버그 리포팅 문서를 남기고 문서를 통해 학습하고 같은 실수를 반복하지 않도록 하였습니다.<br/>
   솔루션 운영 시에서 부하 테스트를 활용하여 코드의 문제점을 개선하고 반복되는 업무를 줄이고자 Github Actions를 통한 자동 배포를 구현했습니다.<br/>
   현재 팀장의 위치에서 주도적인 업무 환경 만들기와 팀원의 성장을 고려하면서 개발을 진행하고 있습니다.<br/>
@@ -66,39 +66,117 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: HanaTI
-        link: hanati.co.kr
-        # link_text: boringcompany.com
-        sub_title: Junior Core Banking Developer
-        caption: November 2020 - Present
-        quote: >
-          Core Banking Developer
+        title: 인포플라
+        link: https://www.infofla.com
+        sub_title: 팀장
+        # link_text: https://www.infofla.com
+        caption: 2020.10 ~ 현재
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: > 
         description: | # this will include new lines to allow paragraphs
-            After 6 months of Trainning(Apr - Oct 2020), worked as full-time Core Banking Developer covering Common, Customer, AML, Factoriy modules.
+          IT서비스 자동화 솔루션([ITOMS](https://itoms.infofla.com)) Backend 개발 및 코드 개선을 해나가고 있습니다. <br/>
+            - 부하 테스트로 Backend 코드 문제점 개선
+            - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
+            - 수집된 Health Check 정보를 이용한 데이터 예측
+            - 소프트웨어 품질인증(GS인증) 1등급 획득
+            - 국가정보자원관리원 설치 및 운영 지원 <br><br>
 
+          FLAS Streaming Backend, Transcoder 개발 <br/>
+            - ERD 설계
+            - FFMPEG을 이용한 비디오, 오디오 Transcoding, Cataloging, Scene change, Thumbnail 개발
+            - 몽골 국가기록원 설치 및 교육<br><br>
+          
+          Central Ave Backend 개발 <br/>
+            - NodeJs, Graphql, MariaDB, MsSql 환경에서 개발
+            - 미국 LA에 네트워크 구성 및 서버 설치 <br/><br/>
+          
+          인터패스 IPERP Backend 개발 <br/>
+            - NodeJs, Graphql, MariaDB 환경에서 개발 <br/><br/>
+          
+          ITOMS: IT서비스 자동화 솔루션 <br/>
+          FLAS: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오 파일의 Streaming을 위한 Transcoding 플랫폼 <br/>
+          Central Ave: 미국 PCAmerica의 POS기와 연동하여 Central Ave의 ERP와 어플리케이션을 제공하기 위한 서버 구축 <br/>
+          인터패스: 버스 단말기 AS를 위한 ERP 시스템 개발 <br/>
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: 더소프트크림
+        sub_title: 웹 개발자
+        caption: 2018.12 ~ 2020.01
+        description: |
+          -	코인링크 회사분리 후 운영 및 개발
+      
+      - layout: left
+        title: 코인링크
+        sub_title: 웹 개발자
+        caption: 2018.05 ~ 2018.12
+        description: |
+          - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
+          - AWS lambda, Python 환경에서 Telegram log 전송 개발
+          - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
+
+  - title: 역량
+    layout: list
+    content:
+      - layout: top-middle
+        name: 개발 파트
+        link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
+        quote: >
+          2020.10 ~ 현재
+        description: |
+          - 인포플라 팀장 (2024.04 ~ 현재)
+          - ITOMS Backend 클라우드 서비스 버전 개발 및 운영 (2020.10 ~ 현재)
+          - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
+          - Central Ave Backend 및 미국 LA 설치 (2023.03 ~ 2024.02)
+          - 인터패스 IPERP Backend 개발 (2021.02 ~ 2022.07)
+          
+      - layout: top-middle
+        title: 대용량 데이터 처리 및 성능 개선
+        description: |
+          - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
+          - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
+          - ITOMS DB Connection pool Timeout 버그 수정
+          - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
+
+      -layout: top-middle
+        title: 인프라 운영 관리
+        description: |
+          - [AWS] ITOMS 클라우드 서비스 운영 및 배포
+          - [On-Premise] Github Actions를 이용한 자동 배포
+      
+  - title: 기술 스택
+    layout: list
     content:
       - layout: left
-        title: Hankuk University of Foreign Studies
-        caption: 2010 - 2016
-        sub_title: BSc Thai Language
-        quote: >
-          Hankuk University of Foreing Studies, aka HUFS, is best Foreign-study education institution in South Korea.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Backend
+        description: |
+          - NodeJS, Python, Java
+          - Graphql, NestJS, Spring Boot
+          - easygraphql-load-tester, Jest, TypeORM
+          - Github, Gitlab
+          - Visual Studio Code
+      
+      - layout: left
+        title: DevOps
+        descriptions: |
+          - MariaDB, MongoDB, Redis, MsSql
+          - Nginx, Tomcat
+          - EC2, Cloud Watch, RDS (Aurora), S3, AWS lambda
+          - Linux
 
-          In HUFS, I had various chances to get along with students from abroad, so it helped me to be a multicultural individual who can get easy with exotic cultures.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Collecting Keyboards (Especially Capactive keyboards)
-      - Gaming
-      - Pilates
-      - Beer
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 
 
 # Footer
