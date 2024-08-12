@@ -119,29 +119,11 @@ content:
           - Java, MyBatis, MariaDB 환경에서 관리자 페이지 개발
           - AWS lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련업무 개발
-          
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Hana EZ-UP
-        link: github.com/codingwanee/HanaEZ-UP
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          My first toy project.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>Spring Framework</mark> and it has since grown into a fully acting web page. I have learned many skills through this and been I'm very proud of having this in my portfolio.
 
   - title: Projects
     layout: list
     content:
+      - layout: top-middle
         title: 개발 파트
         link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
         quote: >
