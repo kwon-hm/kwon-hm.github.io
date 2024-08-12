@@ -134,62 +134,40 @@ content:
           - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
           - Central Ave Backend 및 미국 LA 설치 (2023.03 ~ 2024.02)
           - 인터패스 IPERP Backend 개발 (2021.02 ~ 2022.07)
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: 개발 파트
-  #       link: https://energetic-muenster-d31.notion.site/89fc3bf93f38447ca38fab8c66597daf?pvs=4
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         2020.10 ~ 현재
-  #       description: | # this will include new lines to allow paragraphs
-  #         - 인포플라 팀장 (2024.04 ~ 현재)
-  #         - ITOMS Backend 클라우드 서비스 버전 개발 및 운영 (2020.10 ~ 현재)
-  #         - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
-  #         - Central Ave Backend 및 미국 LA 설치 (2023.03 ~ 2024.02)
-  #         - 인터패스 IPERP Backend 개발 (2021.02 ~ 2022.07)
           
-  #     - layout: top-middle
-  #       title: 대용량 데이터 처리 및 성능 개선
-  #       description: |
-  #         - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
-  #         - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
-  #         - ITOMS DB Connection pool Timeout 버그 수정
-  #         - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
+      - layout: top-middle
+        title: 대용량 데이터 처리 및 성능 개선
+        description: |
+          - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
+          - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
+          - ITOMS DB Connection pool Timeout 버그 수정
+          - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
 
-  #     -layout: top-middle
-  #       title: 인프라 운영 관리
-  #       description: |
-  #         - [AWS] ITOMS 클라우드 서비스 운영 및 배포
-  #         - [On-Premise] Github Actions를 이용한 자동 배포
+      -layout: top-middle
+        title: 인프라 운영 관리
+        description: |
+          - [AWS] ITOMS 클라우드 서비스 운영 및 배포
+          - [On-Premise] Github Actions를 이용한 자동 배포
       
-  # - title: 기술 스택
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: Backend
-  #       description: |
-  #         - NodeJS, Python, Java
-  #         - Graphql, NestJS, Spring Boot
-  #         - easygraphql-load-tester, Jest, TypeORM
-  #         - Github, Gitlab
-  #         - Visual Studio Code
+  - title: 기술 스택
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        description: |
+          - NodeJS, Python, Java
+          - Graphql, NestJS, Spring Boot
+          - easygraphql-load-tester, Jest, TypeORM
+          - Github, Gitlab
+          - Visual Studio Code
       
-  #     - layout: left
-  #       title: DevOps
-  #       descriptions: |
-  #         - MariaDB, MongoDB, Redis, MsSql
-  #         - Nginx, Tomcat
-  #         - EC2, Cloud Watch, RDS (Aurora), S3, AWS lambda
-  #         - Linux
+      - layout: left
+        title: DevOps
+        descriptions: |
+          - MariaDB, MongoDB, Redis, MsSql
+          - Nginx, Tomcat
+          - EC2, Cloud Watch, RDS (Aurora), S3, AWS lambda
+          - Linux
 
 
   - title: A Little More About Me
