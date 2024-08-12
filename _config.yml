@@ -149,32 +149,25 @@ content:
           - [AWS] ITOMS 클라우드 서비스 운영 및 배포
           - [On-Premise] Github Actions를 이용한 자동 배포
 
-  #     -layout: top-middle
-  #       title: 인프라 운영 관리
-  #       description: |
-  #         - [AWS] ITOMS 클라우드 서비스 운영 및 배포
-  #         - [On-Premise] Github Actions를 이용한 자동 배포
-      
-  # - title: 기술 스택
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: Backend
-  #       description: |
-  #         - NodeJS, Python, Java
-  #         - Graphql, NestJS, Spring Boot
-  #         - easygraphql-load-tester, Jest, TypeORM
-  #         - Github, Gitlab
-  #         - Visual Studio Code
-      
-  #     - layout: left
-  #       title: DevOps
-  #       descriptions: |
-  #         - MariaDB, MongoDB, Redis, MsSql
-  #         - Nginx, Tomcat
-  #         - EC2, Cloud Watch, RDS (Aurora), S3, AWS lambda
-  #         - Linux
+  - title: 기술 스택
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        description: |
+          - NodeJS, Python, Java
+          - Graphql, NestJS, Spring Boot
+          - easygraphql-load-tester, Jest, TypeORM
+          - Github, Gitlab
+          - Visual Studio Code
 
+      - layout: left
+        title: DevOps
+        description: |
+          - MariaDB, MongoDB, Redis, MsSql
+          - Nginx, Tomcat
+          - EC2, Cloud Watch, RDS (Aurora), S3, AWS lambda
+          - Linux
 
   - title: A Little More About Me
     layout: text
