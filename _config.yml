@@ -134,14 +134,20 @@ content:
           - FLAS Backend, Transcoder 개발 및 몽골 국가기록원 설치 (2023.01 ~ 2024.08)
           - Central Ave Backend 및 미국 LA 설치 (2023.03 ~ 2024.02)
           - 인터패스 IPERP Backend 개발 (2021.02 ~ 2022.07)
-          
-  #     - layout: top-middle
-  #       title: 대용량 데이터 처리 및 성능 개선
-  #       description: |
-  #         - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
-  #         - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
-  #         - ITOMS DB Connection pool Timeout 버그 수정
-  #         - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
+
+      - layout: top-middle
+        title: 대용량 데이터 처리 및 성능 개선
+        description: |
+          - ITOMS 특정 쿼리에서 SQL_CALC_FOUND_ROWS의 full scan으로 인한 지연 수정(400ms -> 4ms)
+          - ITOMS searchPaging 공통 코드 부분의 Offset 기본 값 이상 확인 후 변경(258ms -> 8ms)
+          - ITOMS DB Connection pool Timeout 버그 수정
+          - ITOMS Agent의 일반 Electron 앱에서 Wix toolset으로 build하여 Windows 설치 프로그램 배포
+
+      - layout: top-middle
+        title: 인프라 운영 관리
+        description: |
+          - [AWS] ITOMS 클라우드 서비스 운영 및 배포
+          - [On-Premise] Github Actions를 이용한 자동 배포
 
   #     -layout: top-middle
   #       title: 인프라 운영 관리
