@@ -1,6 +1,6 @@
 # Site
 repository: kwon-hm/kwon-hm.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -80,8 +80,8 @@ content:
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # quote: > 
         description: | # this will include new lines to allow paragraphs
-          IT서비스 자동화 솔루션([ITOMS](https://itoms.infofla.com)) Backend 개발 및 코드 개선을 해나가고 있습니다. <br>
-          ##### <mark>ITOMS</mark>: IT서비스 자동화 솔루션 <br>
+          [ITOMS](https://itoms.infofla.com) 솔루션 개발 및 코드 개선을 해나가고 있습니다. <br>
+          ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
             - 부하 테스트로 Backend 코드 문제점 개선
             - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
             - 수집된 Health Check 정보를 이용한 데이터 예측
@@ -89,7 +89,7 @@ content:
             - 국가정보자원관리원 설치 및 운영 지원 <br><br>
 
           FLAS Streaming Backend, Transcoder 개발 <br>
-          ##### <mark>FLAS</mark>: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오 파일의 Streaming을 위한 Transcoding 플랫폼 <br>
+          ##### <mark>FLAS</mark>: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오의 Streaming을 위한 Transcoding 플랫폼 <br>
             - ERD 설계
             - FFMPEG을 이용한 비디오, 오디오 Transcoding, Cataloging, Scene change, Thumbnail 개발
             - 몽골 국가기록원 설치 및 교육<br><br>
@@ -116,7 +116,7 @@ content:
         caption: 2018.05 ~ 2018.12
         description: |
           - Java, MyBatis, MariaDB 환경에서 코인 거래소 관리자 페이지 개발
-          - AWS lambda, Python 환경에서 Telegram log 전송 개발
+          - AWS Lambda, Python 환경에서 Telegram log 전송 개발
           - NodeJS, MariaDB 환경에서 EOS 코인 관련(지갑생성, 테스트넷, 입금처리) 개발
 
   - title: 역량
