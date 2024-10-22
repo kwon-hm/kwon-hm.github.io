@@ -20,7 +20,9 @@ darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  kwon-hm
+
+# github_username:  kwon-hm
+
 # stackoverflow_username: "12510445"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -33,13 +35,11 @@ github_username:  kwon-hm
 # orcid_username: 0000-0000-0000-0000
 # googlescholar_username: D847cGsAAAAJ
 
-
 # Additional icon links
 # additional_links:
 # - title: Link name
 #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
-
 
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -78,7 +78,7 @@ content:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # quote: > 
+        # quote: >
         description: | # this will include new lines to allow paragraphs
           [ITOMS](https://itoms.infofla.com) 솔루션 개발 및 코드 개선을 해나가고 있습니다. <br>
           ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
@@ -93,12 +93,12 @@ content:
             - ERD 설계
             - FFMPEG을 이용한 비디오, 오디오 Transcoding, Cataloging, Scene change, Thumbnail 개발
             - 몽골 국가기록원 설치 및 교육<br><br>
-          
+
           Central Ave Backend 개발 <br>
           ##### <mark>Central Ave</mark>: 미국 PCAmerica의 POS기와 연동하여 Central Ave의 ERP와 어플리케이션을 제공하기 위한 서버 구축 <br>
             - NodeJs, Graphql, MariaDB, MsSql 환경에서 개발
             - 미국 LA에 네트워크 구성 및 서버 설치 <br><br>
-          
+
           인터패스 IPERP Backend 개발 <br>
           ##### <mark>인터패스</mark>: 버스 단말기 AS를 위한 ERP 시스템 개발 <br><br>
             - NodeJs, Graphql, MariaDB 환경에서 개발 <br><br>
@@ -109,7 +109,7 @@ content:
         caption: 2018.12 ~ 2020.01
         description: |
           -	코인링크 회사분리 후 운영 및 개발
-      
+
       - layout: left
         title: 코인링크
         sub_title: 웹 개발자
@@ -185,4 +185,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
