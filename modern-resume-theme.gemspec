@@ -16,8 +16,11 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.6.0'
 
-  spec.add_runtime_dependency 'github-pages', '~> 209'
+  # spec.add_runtime_dependency 'github-pages', '~> 209'
+  spec.add_runtime_dependency 'jekyll', '~> 3.9'
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
+  spec.add_runtime_dependency 'kramdown', '>= 2.3.1'
+  spec.add_runtime_dependency 'kramdown-parser-gfm', '~> 1.1'
 
   spec.add_development_dependency "html-proofer", "~> 3.9"
 end
