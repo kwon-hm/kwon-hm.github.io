@@ -82,7 +82,13 @@ content:
         # quote: >
         description: | # this will include new lines to allow paragraphs
           와이랩어스 Backend 개발 및 운영 <br>
-          ##### <mark>와이랩어스(YLAB EARTH)</mark>
+          ##### <mark>와이랩어스(YLAB EARTH)</mark>: 오즈 AI번역<br>
+            - 실시간 협업 속도 개선: 번역자, 검수자 간 CRDT 기반 동시 편집 기능 도입  협업 처리 속도 약 60% 단축. 번역, 검수 사이클이 기존 대비 크게 단축됨
+            - 품질 향상: 온라인 번역 관리 및 알림 기능 도입으로 번역 오류, 누락 건수 약 30% 감소, 번역 품질 및 일관성 강화
+            - 대규모 사용자 운영: 국내외 500명 이상 번역자, 검수자가 동시 접속하는 환경에서 안정적 서비스 제공  글로벌 협업 플랫폼으로 자리매김
+            - 수출 경쟁력 강화: 웹툰 해외 수출 대상 작품 번역의 진행 속도, 납기 준수율 향상  해외 파트너사와의 협력 관계 강화 및 수출 매출 증대에 기여
+            - 운영 효율 개선: 관리자용 대시보드를 통해 번역 진행 현황 실시간 모니터링 가능  프로젝트 관리 업무 효율성 향상
+            - Nest.JS, Graphql, MariaDB, Redis, Yjs, Docker <br><br>
 
           [ITOMS](https://itoms.infofla.com) 솔루션 개발 및 코드 개선을 해나가고 있습니다. <br>
           ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
@@ -90,12 +96,13 @@ content:
             - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
             - 수집된 Health Check 정보를 이용한 데이터 예측
             - 소프트웨어 품질인증(GS인증) 1등급 획득
-            - 국가정보자원관리원 설치 및 운영 지원 <br><br>
+            - 국가정보자원관리원 설치 및 운영 지원 
+            - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB <br><br>
 
-          FLAS Streaming Backend, Transcoder 개발 <br>
+          [FLAS] Streaming Backend, Transcoder 개발 <br>
           ##### <mark>FLAS</mark>: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오의 Streaming을 위한 Transcoding 플랫폼 <br>
             - ERD 설계
-            - FFMPEG을 이용한 비디오, 오디오 Transcoding, Cataloging, Scene change, Thumbnail 개발
+            - FFMPEG을 이용한 비디오, 오디오 Transcoder, Catalog, Scene change, Thumbnail 개발
             - 몽골 국가기록원 설치 및 교육
             - NodeJs, Express, Graphql, MariaDB <br><br>
 
