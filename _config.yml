@@ -81,17 +81,22 @@ content:
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # quote: >
         description: | # this will include new lines to allow paragraphs
+          [Selto](https://www.selto.ai) 기능 관리 및 PoC 리드 <br>
+          ##### <mark>Selto</mark>: 자사 솔루션 <br>
+            - B2B 및 B2C 버전에 대한 기능 관리 <br>
+            - DB 손해보험 시연, PoC 리드 <br><br>
+
           와이랩어스 Backend 개발 및 운영 <br>
-          ##### <mark>와이랩어스(YLAB EARTH)</mark>: 오즈 AI번역<br>
-            - 실시간 협업 속도 개선: 번역자, 검수자 간 CRDT 기반 동시 편집 기능 도입  협업 처리 속도 약 60% 단축. 번역, 검수 사이클이 기존 대비 크게 단축됨
+          ##### <mark>와이랩어스(YLAB EARTH)</mark>: 웹툰 스튜디오 YLAB의 AI번역 프로젝트<br>
+            - 실시간 협업 속도 개선: 번역자, 검수자 간 CRDT 기반 동시 편집 기능 도입. 협업 처리 속도 약 60% 단축. 번역, 검수 사이클이 기존 대비 크게 단축됨
             - 품질 향상: 온라인 번역 관리 및 알림 기능 도입으로 번역 오류, 누락 건수 약 30% 감소, 번역 품질 및 일관성 강화
-            - 대규모 사용자 운영: 국내외 500명 이상 번역자, 검수자가 동시 접속하는 환경에서 안정적 서비스 제공  글로벌 협업 플랫폼으로 자리매김
-            - 수출 경쟁력 강화: 웹툰 해외 수출 대상 작품 번역의 진행 속도, 납기 준수율 향상  해외 파트너사와의 협력 관계 강화 및 수출 매출 증대에 기여
-            - 운영 효율 개선: 관리자용 대시보드를 통해 번역 진행 현황 실시간 모니터링 가능  프로젝트 관리 업무 효율성 향상
+            - 운영: 국내외 500명 이상 번역자, 검수자가 동시 접속하는 환경에서 안정적 서비스 제공. 글로벌 협업 플랫폼으로 자리매김 
+            - 수출 경쟁력 강화: 웹툰 해외 수출 대상 작품 번역의 진행 속도, 납기 준수율 향상. 해외 파트너사와의 협력 관계 강화 및 수출 매출 증대에 기여
+            - 운영 효율 개선: 관리자용 대시보드를 통해 번역 진행 현황 실시간 모니터링 가능. 프로젝트 관리 업무 효율성 향상
             - Nest.JS, Graphql, MariaDB, Redis, Yjs, Docker <br><br>
 
-          [ITOMS](https://itoms.infofla.com) 솔루션 개발 및 코드 개선을 해나가고 있습니다. <br>
-          ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
+          [ITOMS](https://itoms.infofla.com) 개발 및 운영 <br>
+          ##### <mark>ITOMS</mark>: IT 자동화 서비스 자사 솔루션 <br>
             - 부하 테스트로 Backend 코드 문제점 개선
             - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
             - 수집된 Health Check 정보를 이용한 데이터 예측
@@ -106,14 +111,41 @@ content:
             - 몽골 국가기록원 설치 및 교육
             - NodeJs, Express, Graphql, MariaDB <br><br>
 
+          ITOMS DeepTech 고도화 <br>
+          ##### <mark>ITOMS DeepTech</mark>: IT서비스 자동화 서비스 DeepTech 고도화 <br>
+            - 운영 지능화: LLM+RPA 연계로 RPA 스크립트 자동 실행 지원. 운영자 접근성, 효율성 강화
+            - 확장성, 안정성 확보: 마이크로서비스 전환. Docker/K8s 운영으로 서비스 확장성, 무중단 배포 실현
+            - 사용자 편의성 개선: 자연어 기반 스크립트 작성, 직관적 스케줄러 UI, 대시보드 가시성 향상
+            - 엔터프라이즈 보안, 관리 강화: 법인 계정 승인 절차, 권한 제어, 비밀번호 룰, 장비 분류 체계 반영. 공공/기업 환경 대응력 확보
+            - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB, Python, RabbitMQ <br><br>
+
           Central Ave Backend 개발 <br>
           ##### <mark>Central Ave</mark>: 미국 PCAmerica의 POS기와 연동하여 Central Ave의 ERP와 어플리케이션을 제공하기 위한 서버 구축 <br>
-            - 미국 LA에 네트워크 구성 및 서버 설치
+            - 서비스 안정성 강화: 주문/배송 과정에서 발생하던 주요 오류를 해결. 서비스 중단 사례 감소
+            - 운영 효율화: 관리자 웹의 장애 모니터링 체계 개선으로 대응 속도 단축
+            - 사용자 경험 개선: 실제 매장 사용자들의 불편 해소
+            - 비즈니스 기여: 납품사의 공급망 관리 신뢰도 제공, 안정적인 플랫폼 운영 지원, 신규 고객 급증
             - NodeJs, Express, Graphql, MariaDB, MsSql <br><br>
 
           인터패스 IPERP Backend 개발 <br>
           ##### <mark>인터패스</mark>: 버스 단말기 AS를 위한 ERP 시스템 개발 <br><br>
+            - 운영 안정성 확보: 단말기 장애/수리 내역, 차량 배차 관리 등 핵심 기능의 안정적 운영 보장
+            - 업무 효율 향상: 관리자, 운수사, 사용자 모두가 앱과 웹을 통해 실시간으로 업무를 처리할 수 있도록 지원. 업무 리드타임 단축
+            - 비즈니스 기여: 운수사 단말기, 차량 관리 효율화로, 현업 운영 비용 절감과 서비스 신뢰성 강화
             - NodeJs, Express, Graphql, MariaDB <br><br>
+            
+          국가정보자원관리원 ITOMS 개발 <br>
+          ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
+            - Checkmate RPA와 협력한 메일, 영상 모니터링 시스템 개발<br>
+            - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB, Python, RabbitMQ <br><br>
+
+          LFTM 솔루션 <br>
+          ##### <mark>LFTM</mark>: Large File Transfer Managament <br>
+            - 대용량 파일 처리 효율화: 수 GB~수십 GB 단위 파일 전송 안정화. 사용자 업무 처리 속도 개선
+            - 전송 실패율 감소: 자동 복구/재전송 기능으로 파일 전송 실패율을 크게 줄임
+            - 보안성 강화: 데이터 암호화, 권한 관리 적용. 기업 환경에 적합한 안전한 전송 체계 확립
+            - 운영 효율성 향상: 관리자 대시보드 제공으로 전송 이력 및 사용 현황을 손쉽게 관리
+            - JAVA, Spring Boot
 
       - layout: left
         title: 더소프트크림
