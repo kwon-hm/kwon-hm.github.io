@@ -101,21 +101,25 @@ content:
             - Device Health Check 정보 수집을 위한 Agent 개발(Windows, Linux, Mac)
             - 수집된 Health Check 정보를 이용한 데이터 예측
             - 소프트웨어 품질인증(GS인증) 1등급 획득
-            - 국가정보자원관리원 설치 및 운영 지원 
+            - 국가정보자원관리원 설치 및 운영 지원
+            - 국방부 설치 및 운영 지원
             - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB <br><br>
 
           [FLAS] Streaming Backend, Transcoder 개발 <br>
           ##### <mark>FLAS</mark>: 아날로그 및 디지털 기록물을 관리하고 비디오, 오디오의 Streaming을 위한 Transcoding 플랫폼 <br>
             - ERD 설계
-            - FFMPEG을 이용한 비디오, 오디오 Transcoder, Catalog, Scene change, Thumbnail 개발
             - 몽골 국가기록원 설치 및 교육
-            - NodeJs, Express, Graphql, MariaDB <br><br>
+            - 디지털 아카이브 CMS 구축: 기록물 업로드, 메타데이터 관리, 열람, 검색, 스트리밍 기능이 통합된 CMS 완성. 관리자, 사용자 모두 편의성 확보
+            - 멀티미디어 접근성 강화: FFmpeg 기반 실시간 트랜스코딩 및 HLS 스트리밍 적용. 대용량 기록물도 안정적으로 서비스
+            - 운영 효율성 향상: 프론트엔드–웹서버–스트리밍 서버의 통합 아키텍처 설계. 유지보수성 및 확장성 강화
+            - 국가 디지털 전환 기여: 몽골 국가기록원의 아카이브 자료 접근성을 대폭 개선
+            - NodeJs, Express, Graphql, MariaDB, FFmpeg <br><br>
 
           ITOMS DeepTech 고도화 <br>
           ##### <mark>ITOMS DeepTech</mark>: IT서비스 자동화 서비스 DeepTech 고도화 <br>
             - 운영 지능화: LLM+RPA 연계로 RPA 스크립트 자동 실행 지원. 운영자 접근성, 효율성 강화
             - 확장성, 안정성 확보: 마이크로서비스 전환. Docker/K8s 운영으로 서비스 확장성, 무중단 배포 실현
-            - 사용자 편의성 개선: 자연어 기반 스크립트 작성, 직관적 스케줄러 UI, 대시보드 가시성 향상
+            - 사용자 편의성 개선: 자연어 기반 스크립트 작성, 직관적 스케줄러, 대시보드 가시성 향상
             - 엔터프라이즈 보안, 관리 강화: 법인 계정 승인 절차, 권한 제어, 비밀번호 룰, 장비 분류 체계 반영. 공공/기업 환경 대응력 확보
             - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB, Python, RabbitMQ <br><br>
 
