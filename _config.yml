@@ -137,11 +137,6 @@ content:
             - 업무 효율 향상: 관리자, 운수사, 사용자 모두가 앱과 웹을 통해 실시간으로 업무를 처리할 수 있도록 지원. 업무 리드타임 단축
             - 비즈니스 기여: 운수사 단말기, 차량 관리 효율화로, 현업 운영 비용 절감과 서비스 신뢰성 강화
             - NodeJs, Express, Graphql, MariaDB <br><br>
-            
-          국가정보자원관리원 ITOMS 개발 <br>
-          ##### <mark>ITOMS</mark>: IT서비스 자동화 서비스 <br>
-            - Checkmate RPA와 협력한 메일, 영상 모니터링 시스템 개발<br>
-            - NodeJs, Express, Graphql, MariaDB, Redis, MongoDB, Python, RabbitMQ <br><br>
 
           LFTM 솔루션 <br>
           ##### <mark>LFTM</mark>: Large File Transfer Managament <br>
