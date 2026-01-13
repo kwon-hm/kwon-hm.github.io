@@ -139,7 +139,7 @@ GEM
       ethon (>= 0.9.0, < 0.16.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.3)
+    uri (1.0.4)
     webrick (1.9.1)
     yell (2.2.2)
 
@@ -162,6 +162,7 @@ DEPENDENCIES
   modern-resume-theme!
   nokogiri (>= 1.18.9)
   rexml (>= 3.4.2)
+  uri (~> 1.0.4)
 
 BUNDLED WITH
    2.7.1
