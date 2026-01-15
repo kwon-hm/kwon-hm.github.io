@@ -81,7 +81,7 @@ content:
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # quote: >
         description: | # this will include new lines to allow paragraphs
-          [Selto](https://www.selto.ai) LLM 메신저 및 AI Agent 기능 관리, PoC 리드 <br>
+          [Selto] LLM 메신저 및 AI Agent 기능 관리, PoC 리드 <br>
           ##### <mark>Selto</mark>: 자사 솔루션 <br>
             - B2B 및 B2C 버전에 대한 기능 관리 <br>
             - DB 손해보험 시연, PoC 리드 <br><br>
