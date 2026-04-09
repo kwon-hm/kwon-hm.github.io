@@ -155,7 +155,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 8.0.4.1)
-  addressable (>= 2.8.0)
+  addressable (~> 2.8.7)
   commonmarker (>= 0.23.4)
   html-proofer (~> 3.9)
   kramdown (>= 2.3.1)
