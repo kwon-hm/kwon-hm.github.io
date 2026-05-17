@@ -1,8 +1,9 @@
 source "https://rubygems.org"
+ruby ">= 3.2.0"
 gemspec
 
 # Security patches to resolve multiple CVEs
-gem "nokogiri", "~> 1.19.1"
+gem "nokogiri", "~> 1.19.3"
 gem "addressable", "~> 2.9.0"
 gem "rexml", ">= 3.4.2"
 gem "kramdown", ">= 2.3.1"
